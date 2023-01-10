@@ -1,0 +1,268 @@
+<nav class="navbar navbar-expand-lg  bg-BluePopsicle nav-font">
+  <div class="container-fluid">
+    <a class="navbar-brand text-warning" href="#">LavanderCode</a>
+
+    <button class="navbar-toggler" 
+      type="button" data-bs-toggle="offcanvas" 
+      data-bs-target="#offcanvasRight"
+       aria-controls="offcanvasRight" 
+       aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-warning"> 
+      </span>
+    </button>
+
+    <!-- <button class="btn btn-primary" type="button"
+     data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+      aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Event</a>
+        </li>
+
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Type what you want" aria-label="Search">
+        <button class="btn btn-outline-warning text-light" type="submit">
+
+          Search
+        </button>
+      </form>
+    </div>
+  </div>
+
+
+
+</nav>
+
+
+<div class="offcanvas offcanvas-end bg-BluePopsicle nav-font " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title text-warning " id="offcanvasRightLabel">Menu</h5>
+    <button type="button" class="btn-close bg-warning" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link text-light " aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Event</a>
+      </li>
+      </ul>
+  </div>
+</div>
+
+<div class="container p-2">
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide p-2" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <span>Some quick example text to build on the card title and make up the bulk of the card's content</span>
+        <span>Some quick example text to build on the card title and make up the bulk of the card's content</span>
+        <span>Some quick example text to build on the card title and make up the bulk of the card's content</span>
+        <span>Some quick example text to build on the card title and make up the bulk of the card's content</span>
+        <span>Some quick example text to build on the card title and make up the bulk of the card's content</span>
+        <span>Some quick example text to build on the card title and make up the bulk of the card's content</span>
+        <span>Some quick example text to build on the card title and make up the bulk of the card's content</span>
+        
+        <span>Some quick example text to build on the card title and make up the bulk of the card's content</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- slieds -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="../assets/Images/slides/1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+          <h5 >First slide label</h5>
+          <p>Write your History with us</p>
+        </div>
+
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="../assets/Images/slides/2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="../assets/Images/slides/3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+<router-outlet></router-outlet>
+
+<div class="container">
+  <h1 class="m-5 text-center text-warning">OUR PROUDACTS</h1>
+    <div class="row">
+
+
+            <div class="col-lg-4 col-md-6 col-12 p-1">
+              <div class="card">
+                <img src="../assets/Images/slides/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-1">
+              <div class="card">
+                <img src="../assets/Images/slides/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-1">
+              <div class="card">
+                <img src="../assets/Images/slides/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-1">
+              <div class="card">
+                <img src="../assets/Images/slides/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-1">
+              <div class="card">
+                <img src="../assets/Images/slides/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-1">
+              <div class="card">
+                <img src="../assets/Images/slides/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-1">
+              <div class="card">
+                <img src="../assets/Images/slides/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-1">
+              <div class="card">
+                <img src="../assets/Images/slides/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+
+
+    </div>
+</div>
+
+
+
+<footer class="bg-BluePopsicle nav-font text-warning text-center">
+  <!-- Grid container -->
+  <div class="container p-2 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for free</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline mb-2">
+              <input type="email" id="form5Example27" class="form-control" />
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-warning text-light">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center " style="background-color: rgba(0, 0, 0, 0.2);">
+
+    © 2023 Copyright:
+
+
+    <a class="text-light" href="#">LavanderCode.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>

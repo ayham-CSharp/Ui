@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: MermaidBabies;
+    src: url('./assets/Fonts/MermaidBabies.woff2');
+  }
+
+  @font-face {
+    font-family: AdmirationPains;
+    src: url('./assets/Fonts/AdmirationPains.ttf');
+  }
+  
+  .nav-font {
+    font-family: MermaidBabies;
+  }
+  .nav-logo {
+    font-family: AdmirationPains;
+  }
